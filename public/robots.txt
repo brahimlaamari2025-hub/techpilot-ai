@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://techpilot-ai.pages.dev/sitemap.xml
+Agentmap: https://techpilot-ai.pages.dev/.well-known/ai-catalog.json
