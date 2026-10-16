@@ -1,0 +1,28 @@
+# TechPilot AI
+
+> TechPilot AI publishes practical English-language guides about artificial intelligence tools, software, and everyday technology.
+
+## Main pages
+
+- [Home](https://techpilot-ai.pages.dev/): Overview of the site and its editorial focus.
+- [About](https://techpilot-ai.pages.dev/about/): Mission, editorial approach, and contact information.
+- [AI Tools](https://techpilot-ai.pages.dev/ai-tools/): Educational overview of AI tool categories and evaluation criteria.
+- [How-To Guides](https://techpilot-ai.pages.dev/how-to/): Practical tutorials for using AI and technology responsibly.
+- [Reviews](https://techpilot-ai.pages.dev/reviews/): Review and comparison framework, including strengths, limitations, privacy, and cost.
+- [Contact](https://techpilot-ai.pages.dev/contact/): Contact the site.
+
+## Published guides
+
+- [Write Better AI Prompts](https://techpilot-ai.pages.dev/how-to/write-better-ai-prompts/): A practical method for improving prompts.
+- [Verify AI-Generated Answers](https://techpilot-ai.pages.dev/how-to/verify-ai-answers/): Ways to check AI output before relying on it.
+- [Protect Your Privacy When Using AI Tools](https://techpilot-ai.pages.dev/how-to/protect-privacy-using-ai/): Privacy-conscious AI use.
+
+## Policies
+
+- [Privacy Policy](https://techpilot-ai.pages.dev/privacy-policy/)
+- [Terms of Use](https://techpilot-ai.pages.dev/terms/)
+- [Disclaimer](https://techpilot-ai.pages.dev/disclaimer/)
+
+## Editorial notes
+
+Content is educational and may become outdated as tools change. Verify current product details with their official providers. Do not treat AI-generated output or general educational material as professional advice.
