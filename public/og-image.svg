@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111a30"/>
+      <stop offset="1" stop-color="#0b1020"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#80f0c0"/>
+      <stop offset="1" stop-color="#8ba8ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" rx="0" fill="url(#bg)"/>
+  <circle cx="1040" cy="80" r="270" fill="#8ba8ff" opacity=".08"/>
+  <circle cx="160" cy="600" r="260" fill="#80f0c0" opacity=".06"/>
+  <rect x="84" y="88" width="72" height="72" rx="20" fill="url(#accent)"/>
+  <text x="120" y="133" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="800" text-anchor="middle" fill="#0b1020">TP</text>
+  <text x="180" y="135" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" fill="#eef2ff">TechPilot <tspan fill="#80f0c0">AI</tspan></text>
+  <rect x="84" y="242" width="110" height="5" rx="2.5" fill="#80f0c0"/>
+  <text x="84" y="315" font-family="Arial,Helvetica,sans-serif" font-size="58" font-weight="800" letter-spacing="-1.5" fill="#eef2ff">Make technology</text>
+  <text x="84" y="385" font-family="Arial,Helvetica,sans-serif" font-size="58" font-weight="800" letter-spacing="-1.5" fill="#80f0c0">work for you.</text>
+  <text x="86" y="445" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#a1abc4">Practical AI guides, tool insights, and everyday tech tutorials.</text>
+  <text x="86" y="565" font-family="Arial,Helvetica,sans-serif" font-size="20" fill="#a1abc4">techpilot-ai.pages.dev</text>
+</svg>
