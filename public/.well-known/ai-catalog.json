@@ -1,0 +1,9 @@
+{
+  "specVersion": "1.0",
+  "host": {
+    "displayName": "TechPilot AI",
+    "identifier": "techpilot-ai.pages.dev",
+    "documentationUrl": "https://techpilot-ai.pages.dev/about/"
+  },
+  "entries": []
+}
