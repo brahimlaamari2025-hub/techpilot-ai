@@ -1,0 +1,61 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+<BaseLayout title="How to Write Better AI Prompts: A Practical 6-Step Method | TechPilot AI" description="Learn a repeatable six-step method for writing clearer AI prompts, with examples, a reusable template, and tips for improving results.">
+  <article class="prose article">
+    <a class="text-link" href="/how-to/">← All How-To Guides</a>
+    <header class="article-header">
+      <span class="eyebrow">AI basics · Practical guide</span>
+      <h1>How to Write Better AI Prompts</h1>
+      <p class="article-lede">You do not need secret keywords to get useful results from an AI assistant. You need to explain the task, provide the right context, and tell it what a good answer should look like.</p>
+      <p class="article-meta">A practical guide · Updated October 16, 2026 · 6–8 minute read</p>
+    </header>
+    <div class="notice"><strong>Quick takeaway:</strong> State the task, add relevant context, set constraints, specify the format, and review the result. Treat the first response as a draft—not a final authority.</div>
+    <h2>1. Start with one clear task</h2>
+    <p>Describe the result you want rather than asking a broad question such as “Help me with work.” A specific request gives the assistant a clearer target.</p>
+    <div class="prompt-example"><span>Vague prompt</span><p>Help me write an email.</p><span>More useful prompt</span><p>Draft a polite email to a supplier asking for an updated delivery date. Keep it under 120 words and use a professional, friendly tone.</p></div>
+    <h2>2. Give only the context that matters</h2>
+    <p>Include the audience, purpose, background, and any details that change the answer. If you are asking for a rewrite, paste the text. If you are planning a project, explain the goal, resources, and limitations.</p>
+    <p>Do not paste passwords, private customer records, confidential business documents, or other sensitive information unless you have checked that the tool and your organization permit it. Replace identifying details with fictional examples when possible.</p>
+    <h2>3. Describe the role or point of view when useful</h2>
+    <p>A perspective can help shape the answer, especially for a specialized task. For example: “Act as a patient writing coach and explain the edits in plain English.” This is guidance for the style of the response; it does not make the AI a qualified professional or guarantee accuracy.</p>
+    <h2>4. Add constraints and success criteria</h2>
+    <p>Say what to include and what to avoid. Useful constraints include word count, reading level, language, budget, platform, deadline, and required sources. A success criterion might be “Give three options and explain the main trade-off of each.”</p>
+    <h2>5. Choose the output format</h2>
+    <p>Ask for the structure that will be easiest to use: a checklist, table, numbered steps, short email, outline, or JSON for a technical workflow. For complex work, ask the assistant to state assumptions and flag missing information instead of silently guessing.</p>
+    <h2>6. Improve the result in a second pass</h2>
+    <p>Review the response and give focused feedback. Instead of saying “Make it better,” try “Keep the first paragraph, remove repeated ideas, use shorter sentences, and add one concrete example.” You can also ask for two alternatives to compare.</p>
+    <h2>A reusable prompt template</h2>
+    <div class="prompt-example"><p><strong>Task:</strong> What I need you to do.</p><p><strong>Context:</strong> Relevant background and intended audience.</p><p><strong>Requirements:</strong> Must-haves, limits, tone, and language.</p><p><strong>Output:</strong> The format and length I want.</p><p><strong>Quality check:</strong> What to verify, and what uncertainties to flag.</p></div>
+    <h2>Example: turn notes into a useful summary</h2>
+    <p><strong>Prompt:</strong> “Summarize the notes below for a busy team lead. Use five bullets, separate decisions from open questions, and do not invent names, dates, or commitments. If something is unclear, label it ‘Needs confirmation.’ Notes: [paste non-sensitive notes].”</p>
+    <p>This prompt defines the audience, structure, and an important accuracy rule. You still need to compare the summary with the original notes before sharing it.</p>
+    <h2>Common mistakes to avoid</h2>
+    <ul>
+      <li><strong>Too little context:</strong> the assistant must guess what you mean.</li>
+      <li><strong>Too many unrelated tasks:</strong> split complicated work into manageable steps.</li>
+      <li><strong>Assuming confidence means correctness:</strong> request evidence and verify important claims.</li>
+      <li><strong>Sharing sensitive data unnecessarily:</strong> minimize or anonymize information.</li>
+      <li><strong>Accepting the first draft automatically:</strong> check facts, tone, and suitability for your audience.</li>
+    </ul>
+    <h2>Final checklist</h2>
+    <ul>
+      <li>Is the task specific?</li>
+      <li>Did I provide enough relevant context?</li>
+      <li>Did I state constraints and the desired format?</li>
+      <li>Did I ask the assistant to flag uncertainty rather than guess?</li>
+      <li>Have I checked the final answer before using it?</li>
+    </ul>
+    <p>For the next step, read our guide on <a href="/how-to/verify-ai-answers/">checking AI-generated information</a> before relying on it.</p>
+  </article>
+</BaseLayout>
+<style>
+  .article{padding-top:26px}
+  .article-header{padding:26px 0 18px}
+  .article-header h1{font-size:clamp(36px,6vw,56px);line-height:1.08;letter-spacing:-2px;margin:17px 0}
+  .article-lede{font-size:18px!important;line-height:1.8!important;color:#d4dbee!important}
+  .article-meta{font-size:12px!important;color:#8390ad!important}
+  .prompt-example{padding:19px 21px;margin:18px 0;border:1px solid var(--line);border-radius:14px;background:rgba(17,26,48,.75)}
+  .prompt-example span{display:block;color:var(--mint);font-size:11px;font-weight:800;letter-spacing:1px;text-transform:uppercase}
+  .prompt-example p{margin:8px 0 15px}.prompt-example p:last-child{margin-bottom:0}
+</style>
