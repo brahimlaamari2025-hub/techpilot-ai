@@ -12,6 +12,8 @@ const navItems = [
   { href: '/about/', label: 'About' },
 ];
 const path = Astro.url.pathname;
+const canonicalUrl = new URL(Astro.url.pathname, 'https://techpilot-ai.pages.dev').href;
+const socialImageUrl = 'https://techpilot-ai.pages.dev/og-image.svg';
 ---
 <!doctype html>
 <html lang="en">
@@ -20,7 +22,26 @@ const path = Astro.url.pathname;
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
     <meta name="theme-color" content="#0b1020" />
-    <link rel="canonical" href={`https://techpilot-ai.pages.dev${Astro.url.pathname}`} />
+    <link rel="canonical" href={canonicalUrl} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="TechPilot AI" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:image" content={socialImageUrl} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="TechPilot AI — Practical AI guides and everyday technology tutorials" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={socialImageUrl} />
+    <meta name="twitter:image:alt" content="TechPilot AI — Practical AI guides and everyday technology tutorials" />
+
     <title>{title}</title>
   </head>
   <body>
